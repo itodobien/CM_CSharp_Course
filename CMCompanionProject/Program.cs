@@ -6,5 +6,6 @@ using TestingThingsOut.ValueTypes;
 
 Console.WriteLine("----------------");
 
-Structs.StructDemo();
+Structs.StructConstructorExample example = new Structs.StructConstructorExample("Code Monkey", 44);
+
 
