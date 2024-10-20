@@ -11,5 +11,5 @@ public class EuclideanDistancein3DSpace
         return System.Math.Sqrt(deltaX * deltaX + deltaY * deltaY + deltaZ * deltaZ);
     }
     
-    double distance3D = Distance3D(0, 0, 0, 3, 4, 12); // 13
+    double _distance3D = Distance3D(0, 0, 0, 3, 4, 12); // 13
 }

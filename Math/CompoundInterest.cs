@@ -6,6 +6,6 @@ public class CompoundInterest
     {
         return principal * System.Math.Pow(1 + rate / timesCompounded, timesCompounded * years);
     }
-    private double futureValue = CompoundInterestMethod(default, default, default, default);
+    private double _futureValue = CompoundInterestMethod(default, default, default, default);
 }
 

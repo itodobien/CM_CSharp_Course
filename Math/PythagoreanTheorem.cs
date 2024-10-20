@@ -6,5 +6,5 @@ public class PythagoreanTheorem
     {
         return System.Math.Sqrt(a * a + b * b);
     }
-    double hypotenuse = PythagoreanTheoremMethod(3, 4); // 5
+    double _hypotenuse = PythagoreanTheoremMethod(3, 4); // 5
 }

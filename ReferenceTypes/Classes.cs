@@ -7,13 +7,13 @@ public class Classes
         int a = 5;
         
         MyClass myClass = new MyClass();
-        myClass.a = 7;
+        myClass.A = 7;
         MyClass mySecondClass = myClass;
-        mySecondClass.a = 80; //this will be the value as it was the last time myClass.a was modified
+        mySecondClass.A = 80; //this will be the value as it was the last time myClass.a was modified
 
         Console.WriteLine($"""
-                          Value for myClass: {myClass.a}
-                          Value for mySecondClass: {mySecondClass.a}
+                          Value for myClass: {myClass.A}
+                          Value for mySecondClass: {mySecondClass.A}
                           """);
         /*both classes end up with the same value because the are reference types.
         They point to the same object so it's not a copy, it gets overridden when assigned a new value
@@ -37,22 +37,22 @@ public class Classes
         int a = 5;
         
         MyStruct myStruct = new MyStruct();
-        myStruct.a = 7;
+        myStruct.A = 7;
         MyStruct mySecondStruct = myStruct;
-        mySecondStruct.a = 80; //this is a copy so it does not overwrite myStruct.a. 
+        mySecondStruct.A = 80; //this is a copy so it does not overwrite myStruct.a. 
 
         Console.WriteLine($"""
-                           Value for myStruct: {myStruct.a}
-                           Value for mySecondStruct: {mySecondStruct.a}
+                           Value for myStruct: {myStruct.A}
+                           Value for mySecondStruct: {mySecondStruct.A}
                            """);
     }
 }
 
 public class MyClass
 {
-    public int a;
+    public int A;
 }
 public struct MyStruct
 {
-    public int a;
+    public int A;
 }

@@ -2,43 +2,43 @@
 
 public class Arrays
 {
-    int[,] thisArrayHasTwoDimensions = new int[1, 1];
+    int[,] _thisArrayHasTwoDimensions = new int[1, 1];
     
-    public void iterate2DArray()
+    public void Iterate2DArray()
     {
-        for (int i = 0; i < thisArrayHasTwoDimensions.GetLength(0); i++)
+        for (int i = 0; i < _thisArrayHasTwoDimensions.GetLength(0); i++)
         {
-            for (int j = 0; j < thisArrayHasTwoDimensions.GetLength(1); j++)
+            for (int j = 0; j < _thisArrayHasTwoDimensions.GetLength(1); j++)
             {
-                Console.WriteLine(i + ", " + ": " + thisArrayHasTwoDimensions[i, j]);
+                Console.WriteLine(i + ", " + ": " + _thisArrayHasTwoDimensions[i, j]);
             }
         }
     }
     
-    int [][] arrayOfArrays = new int[2][];
+    int [][] _arrayOfArrays = new int[2][];
 
-    public void iterateArrayofArrays()
+    public void IterateArrayofArrays()
     {
-        for (int i = 0; i < arrayOfArrays.Length; i++)
+        for (int i = 0; i < _arrayOfArrays.Length; i++)
         {
-            arrayOfArrays[i] = new int[2];
+            _arrayOfArrays[i] = new int[2];
     
-            for (int j = 0; j < arrayOfArrays[i].Length; j++)
+            for (int j = 0; j < _arrayOfArrays[i].Length; j++)
             {
-                Console.WriteLine(arrayOfArrays[i][j] + " ");
+                Console.WriteLine(_arrayOfArrays[i][j] + " ");
             }
         }
     }
     
-    int[,] thisArrayHasTwoDimensionsAsWell = new int[4, 4];
+    int[,] _thisArrayHasTwoDimensionsAsWell = new int[4, 4];
         
     public void MultiDimensionArray()
     {
-        for (int i = 0; i < thisArrayHasTwoDimensions.GetLength(0); i++)
+        for (int i = 0; i < _thisArrayHasTwoDimensions.GetLength(0); i++)
         {
-            for (int j = 0; j < thisArrayHasTwoDimensions.GetLength(1); j++)
+            for (int j = 0; j < _thisArrayHasTwoDimensions.GetLength(1); j++)
             {
-                Console.WriteLine(i + ", " + ": " + thisArrayHasTwoDimensions[i, j]);
+                Console.WriteLine(i + ", " + ": " + _thisArrayHasTwoDimensions[i, j]);
             }
         }
     }

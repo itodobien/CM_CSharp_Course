@@ -14,6 +14,6 @@ public class Factorial
         return result;
     }
 
-    long fact = FactorialMethod(5); // 120
+    long _fact = FactorialMethod(5); // 120
 
 }

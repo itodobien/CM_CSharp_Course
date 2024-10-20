@@ -1,11 +1,10 @@
 ﻿namespace CM_CSharp_Course.Math;
 
-public class Pascal_sTriangle
+public class PascalSTriangle
 {
     public static List<List<long>> GeneratePascalsTriangle(int n)
     {
         List<List<long>> triangle = new List<List<long>>();
-        
 
         for (int i = 0; i < n; i++)
         {
@@ -25,7 +24,6 @@ public class Pascal_sTriangle
     
     public static void CallingToPrintExample(string[] args)
     {
-        // Generate the first 5 rows of Pascal's Triangle
         var triangle = GeneratePascalsTriangle(5);
 
         // Display the triangle
@@ -37,6 +35,7 @@ public class Pascal_sTriangle
             }
             Console.WriteLine();
         }
+
         // Keep the console window open
         Console.WriteLine("\nPress any key to exit...");
         Console.ReadKey();

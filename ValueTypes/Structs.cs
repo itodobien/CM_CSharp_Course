@@ -5,29 +5,29 @@ public class Structs
     public static void StructDemo()
     {
         PlayerStruct playerStruct = new PlayerStruct();
-        playerStruct.a = 5;
+        playerStruct.A = 5;
         
         PlayerClass playerClass = new PlayerClass();
-        playerClass.a = 5;
+        playerClass.A = 5;
         
         TestStructMethod(playerStruct);
         TestClassMethod(playerClass);
 
         Console.WriteLine($"""
-                          Player struct value: {playerStruct.a}
-                          Player class value: {playerClass.a}
+                          Player struct value: {playerStruct.A}
+                          Player class value: {playerClass.A}
                           """ );
     }
     
     public struct StructConstructorExample
     {
-        public string name;
-        public int age;
+        public string Name;
+        public int Age;
 
         public StructConstructorExample(string name, int age)
         {
-            this.name = name;
-            this.age = age;
+            this.Name = name;
+            this.Age = age;
             Console.WriteLine($"""
                               Name: {name}
                               Age: {age}
@@ -38,41 +38,41 @@ public class Structs
 
     struct StructSecondConstructorExample
     {
-        public int x;
-        public int y;
+        public int X;
+        public int Y;
     }
     
-    private StructSecondConstructorExample structSecondConstructorExample;
+    private StructSecondConstructorExample _structSecondConstructorExample;
 
     private void CallStructFromAbove()
     {
-        structSecondConstructorExample = new StructSecondConstructorExample()
+        _structSecondConstructorExample = new StructSecondConstructorExample()
         {
-            x = 1,
-            y = 2,
+            X = 1,
+            Y = 2,
 
         };
     }
     
     public static void TestStructMethod(PlayerStruct playerStruct)
     {
-        playerStruct.a = 500;
+        playerStruct.A = 500;
     }
 
     public static void TestClassMethod(PlayerClass playerClass)
     {
-        playerClass.a = 500;
+        playerClass.A = 500;
     }
 
     public struct PlayerStruct()
     {
-        public string name;
-        public int a;
+        public string Name;
+        public int A;
     }
     
     public class PlayerClass()
     {
-        public int a;
-        public string name;
+        public int A;
+        public string Name;
     }
 }

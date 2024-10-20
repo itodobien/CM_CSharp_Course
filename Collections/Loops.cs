@@ -2,20 +2,20 @@
 
 public class Loops
 {
-    int randomNumber = 0;
-    int maxNumber = 0;
+    int _randomNumber = 0;
+    int _maxNumber = 0;
     
     public void WhileLoop()
     {
-        while (randomNumber < maxNumber)
+        while (_randomNumber < _maxNumber)
         {
-            randomNumber++;
+            _randomNumber++;
         }
     }
     
     public int RecursionIncrementer(int randomNumber)
     {
-        if (randomNumber < maxNumber)
+        if (randomNumber < _maxNumber)
         {
             return RecursionIncrementer(randomNumber +1);
         }
