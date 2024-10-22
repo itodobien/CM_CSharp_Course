@@ -40,11 +40,11 @@ public class TypeConversion
 
     public void UsingIsKeyword()
     {
-        if (attackable.GetType() is (Player))
+        if (attackable is (Player))
         {
             Console.WriteLine("I am a Playa from the Himalaya");
         }
-        else if(attackable.GetType() is (Enemy))
+        else if(attackable is (Enemy))
         {
             Console.WriteLine("I am an Enemy");
         }

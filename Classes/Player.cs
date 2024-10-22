@@ -2,13 +2,12 @@
 
 public class Player : Unit
 {
+    public event EventHandler<OnPlayerDamagedEventArgs> OnPlayerDamaged;
     
-    
-    private string _playerName;
+    private readonly string _playerName;
     public Player(string playerName ="Code Monkey")
     {
         _playerName = playerName;
-        
     }
 
     public override void Move()
@@ -30,4 +29,12 @@ public class Player : Unit
         Console.WriteLine("Hello from Player");
     }
     
+    public void TakeDamage() //this could have just been an override for Damage, but I left it this way, so I wouldn't get confuses
+    {
+        OnPlayerDamaged?.Invoke(this, new OnPlayerDamagedEventArgs
+        {
+            previousHealth = 100,
+        });
+
+    }
 }

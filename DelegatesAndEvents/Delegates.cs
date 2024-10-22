@@ -1,4 +1,4 @@
-﻿namespace CM_CSharp_Course.Methods;
+﻿namespace CM_CSharp_Course.DelegatesAndEvents;
 
 public class Delegates
 {
