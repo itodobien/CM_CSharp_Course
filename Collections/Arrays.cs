@@ -3,6 +3,7 @@
 public class Arrays
 {
     int[,] _thisArrayHasTwoDimensions = new int[1, 1];
+    int[,] _thisArrayHasTwoDimensionsAsWell = new int[4, 4];
     
     public void Iterate2DArray()
     {
@@ -29,8 +30,6 @@ public class Arrays
             }
         }
     }
-    
-    int[,] _thisArrayHasTwoDimensionsAsWell = new int[4, 4];
         
     public void MultiDimensionArray()
     {

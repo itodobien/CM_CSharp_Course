@@ -1,10 +1,7 @@
-﻿
-using CM_CSharp_Course.ErrorHandling;
-using CM_CSharp_Course.Generics;
-using CM_CSharp_Course.Methods;
+﻿using CM_CSharp_Course.Operators;
 
 Console.WriteLine("----------------");
+Console.WriteLine();
 
-TryCatchClass classExample = new TryCatchClass();
-
-classExample.ErrorHandlingMain();
+Defaults defaults = new Defaults();
+defaults.DefaultsMainMethod();

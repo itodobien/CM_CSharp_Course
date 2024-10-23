@@ -29,7 +29,7 @@ public class TryCatchClass
 
     public void ThrowException()
     {
-        throw new Exception("Here's and exception");
+        throw new Exception("Here's an exception");
     }
 }
 

@@ -7,4 +7,10 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Reference Include="UnityEngine.CoreModule">
+        <HintPath>D:\Unity\6000.0.23f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
 </Project>

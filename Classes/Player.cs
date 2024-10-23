@@ -37,4 +37,11 @@ public class Player : Unit
         });
 
     }
+    public void SetSpeed(int speed)
+    {
+        if (speed == 0)
+        {
+            Console.WriteLine("ERROR:: " + nameof(speed) + "Must be greater than 0");
+        }
+    }
 }
