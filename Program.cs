@@ -1,12 +1,13 @@
 ﻿
-using CM_CSharp_Course.Collections;
+using CM_CSharp_Course.MultiThread;
 
 Console.WriteLine("----------------");
 Console.WriteLine();
 
 
-LINQ linq = new LINQ();
-linq.LINQMainMethod();
+MultiThreadCoding multiThreadCoding = new MultiThreadCoding();
+
+multiThreadCoding.MultiThreadMainMethod();
 
 
 Console.WriteLine();
