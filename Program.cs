@@ -1,7 +1,13 @@
-﻿using CM_CSharp_Course.Operators;
+﻿
+using CM_CSharp_Course.Collections;
 
 Console.WriteLine("----------------");
 Console.WriteLine();
 
-Defaults defaults = new Defaults();
-defaults.DefaultsMainMethod();
+
+LINQ linq = new LINQ();
+linq.LINQMainMethod();
+
+
+Console.WriteLine();
+Console.WriteLine("----------------");

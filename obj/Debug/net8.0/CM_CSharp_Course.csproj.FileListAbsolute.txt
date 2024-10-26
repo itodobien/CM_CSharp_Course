@@ -19,3 +19,4 @@ F:\C# Learning\CM_CSharp_Course\bin\Debug\net8.0\UnityEngine.CoreModule.xml
 F:\C# Learning\CM_CSharp_Course\bin\Debug\net8.0\UnityEngine.SharedInternalsModule.xml
 F:\C# Learning\CM_CSharp_Course\obj\Debug\net8.0\CM_CSharp_Course.csproj.AssemblyReference.cache
 F:\C# Learning\CM_CSharp_Course\obj\Debug\net8.0\CM_CShar.5F5A483A.Up2Date
+F:\C# Learning\CM_CSharp_Course\bin\Debug\net8.0\Newtonsoft.Json.dll

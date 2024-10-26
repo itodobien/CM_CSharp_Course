@@ -23,4 +23,5 @@ public class Unit : Inheritance, IAttackable
     {
         Console.WriteLine("Unit takes damage");
     }
+    
 }

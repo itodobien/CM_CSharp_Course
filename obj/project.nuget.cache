@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+PxAh3Fu0Zk=",
+  "dgSpecHash": "wMlJQeXXmnU=",
   "success": true,
   "projectFilePath": "F:\\C# Learning\\CM_CSharp_Course\\CM_CSharp_Course.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\itodo\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
